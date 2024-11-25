@@ -1,12 +1,14 @@
 body {
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
     text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Prevents scrollbars */
 }
 
 #board {
-     width: 800px;
-    height: 600px;
-    /* background-color: skyblue; */
+    width: 100vw; /* Full width of the viewport */
+    height: 100vh; /* Full height of the viewport */
     background-image: url("./flappybirdbg.png");
-    background-size: cover;
+    background-size: cover; /* Ensures the background scales */
 }
